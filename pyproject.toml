@@ -7,7 +7,22 @@ name = "google-drive-forge"
 version = "0.2.0"
 description = "Autonomous Google Drive MCP with Skill Forge Capabilities"
 readme = "README.md"
+license = "MIT"
 requires-python = ">=3.10"
+authors = [
+    { name = "Sebastian Velandia", email = "sebastian@traylinx.com" }
+]
+keywords = ["google-drive", "mcp", "ai", "automation", "skill-forge", "agentic"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
 dependencies = [
     "mcp",
     "google-auth",
@@ -18,8 +33,14 @@ dependencies = [
     "PyYAML"
 ]
 
+[project.urls]
+Homepage = "https://github.com/traylinx/google_drive_forge"
+Repository = "https://github.com/traylinx/google_drive_forge"
+Documentation = "https://github.com/traylinx/google_drive_forge#readme"
+
 [project.scripts]
 google-drive-forge = "google_drive_forge.__main__:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["google_drive_forge"]
+

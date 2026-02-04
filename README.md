@@ -55,12 +55,17 @@ For a step-by-step walkthrough on generating your `credentials.json` and `token.
 👉 **[Comprehensive Setup Guide](docs/setup.md)**
 
 ### 3. Quick Configuration
+
+**Install via pip:**
+```bash
+pip install google-drive-forge
+```
+
 Add this to your MCP host configuration (e.g., Antigravity):
 
 ```json
 "google-drive": {
-  "command": "python",
-  "args": ["/path/to/server.py"],
+  "command": "google-drive-forge",
   "env": {
     "GOOGLE_DRIVE_CREDENTIALS": "/path/to/credentials.json",
     "GOOGLE_DRIVE_HEADLESS_AUTH": "false",
