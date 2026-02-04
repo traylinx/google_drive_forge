@@ -88,7 +88,7 @@ This MCP server implements **The Forge**, which allows AI agents to write and ex
 
 ---
 
-## � Contributing & Extension
+##  Contributing & Extension
 
 We believe in open autonomy. If you have ideas for new core skills or improvements to the path-healing engine:
 1. Check the [Contributing Guide](CONTRIBUTING.md).

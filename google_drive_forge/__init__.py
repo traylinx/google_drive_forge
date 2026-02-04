@@ -3,4 +3,7 @@ from .executor import ScriptExecutor
 from .skill_loader import SkillLoader
 from .client import DriveClient
 
-__all__ = ["IntelligentDriveClient", "ScriptExecutor", "SkillLoader", "DriveClient"]
+# Alias for branding
+ForgeClient = IntelligentDriveClient
+
+__all__ = ["IntelligentDriveClient", "ForgeClient", "ScriptExecutor", "SkillLoader", "DriveClient"]

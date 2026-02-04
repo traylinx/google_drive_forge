@@ -1,6 +1,6 @@
-# Google Drive MCP Documentation
+# Google Drive Forge Documentation
 
-Welcome to the documentation for the Google Drive MCP (Model Context Protocol) server and Agentic App library.
+Welcome to the documentation for **Google Drive Forge** (formerly Google Drive MCP).
 
 ## Contents
 
@@ -16,10 +16,10 @@ Welcome to the documentation for the Google Drive MCP (Model Context Protocol) s
 This project provides two ways to interact with Google Drive:
 
 1.  **MCP Server**: Exposes tools for AI IDEs like Cursor and Claude Desktop.
-2.  **Python Library**: Embed `google_drive_mcp` into your own agentic workflows.
+2.  **Agentic Library**: Embed `google_drive_forge` into your own agentic workflows.
 
 ## Quick Links
 
--   **Main Entry Point (MCP)**: `server.py`
--   **Package Name**: `google_drive_mcp`
--   **Key Classes**: `IntelligentDriveClient`, `ScriptExecutor`, `SkillLoader`
+-   **Main Entry Point (MCP)**: `server.py` or `python -m google_drive_forge`
+-   **Package Name**: `google_drive_forge`
+-   **Key Classes**: `ForgeClient`, `ScriptExecutor`, `SkillLoader`

@@ -8,7 +8,7 @@ mcp_dir = "/Users/sebastian/Projects/clis/antigravity/mcp/google_drive"
 if mcp_dir not in sys.path:
     sys.path.append(mcp_dir)
 
-from google_drive_mcp.intelligent_client import IntelligentDriveClient
+from google_drive_forge.intelligent_client import IntelligentDriveClient
 
 def batch_download(folder_name, dest_path):
     client = IntelligentDriveClient()

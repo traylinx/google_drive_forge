@@ -7,7 +7,7 @@ import os
 # Add parent directory to sys.path to access src
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from google_drive_mcp.intelligent_client import IntelligentDriveClient
+from google_drive_forge.intelligent_client import IntelligentDriveClient
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

@@ -1,17 +1,17 @@
 # API Reference
 
-This document describes the public Python API for the `google_drive_mcp` package.
+This document describes the public Python API for the `google_drive_forge` package.
 
 ---
 
-## `IntelligentDriveClient`
+## `ForgeClient` (alias: `IntelligentDriveClient`)
 
 The primary client for interacting with Google Drive. Extends `DriveClient` with autonomous features.
 
 ```python
-from google_drive_mcp import IntelligentDriveClient
+from google_drive_forge import ForgeClient
 
-client = IntelligentDriveClient(audit=None)  # audit: Optional[AuditLogger]
+client = ForgeClient(audit=None)  # audit: Optional[AuditLogger]
 ```
 
 ### Methods

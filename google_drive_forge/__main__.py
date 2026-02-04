@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 # Initialize FastMCP Server
-mcp = FastMCP("google-drive")
+mcp = FastMCP("google-drive-forge")
 
 # Setup Paths from Environment or Defaults
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))

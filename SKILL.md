@@ -3,19 +3,19 @@ name: google-drive-mcp
 description: "Autonomous Google Drive management with intelligent path resolution, auto-recovery, and custom skill forging. Use when Claude needs to work with cloud storage for tasks like: (1) Navigating complex folder structures with human-like paths (/Work/Projects/2026), (2) Reading and converting content from Docs, Sheets, and PDFs, (3) Automating multi-step Drive operations by creating and running custom Python 'Skills', (4) Managing files (upload, search, trash)."
 ---
 
-# Google Drive MCP
+# Google Drive Forge - The Autonomous Skill System
 
-## Overview
+**Google Drive Forge** (formerly google-drive-mcp) is an advanced autonomous system for interacting with Google Drive.
+It goes beyond simple file storage by implementing **AI-Forged Skills**—short, single-purpose Python scripts that can be created, executed, and refined by the AI itself.
 
-This skill transforms Claude into an **Autonomous Power-User** for Google Drive. It goes beyond basic file listing by providing a cognitive layer that handles path resolution, autonomous recovery from errors, and the ability to extend itself by "forging" new capabilities on the fly.
+## 1. System Components
 
-## Core Capabilities
-
-### 1. Intelligent Navigation & Reading
-
-Forget opaque File IDs. Use human-readable paths and automatic content conversion.
-
-- **`resolve_path`**: Converts a path like `/Marketing/Drafts/2026_Strategy` into a File ID. If parts of the path are missing or misspelled, it attempts "Self-Healing" to find the closest match.
+*   **Google Drive Forge Server**: The core MCP process.
+*   **The Forge (Skill System)**: A runtime for creating (`create_skill`) and running (`run_skill`) Python scripts.
+*   **IntelligentDriveClient (ForgeClient)**: A smart wrapper around the Drive API that handles:
+    *   **Self-Healing Paths**: Automatically finds files even if your path is slightly wrong (e.g., misremembered folder name).
+    *   **Autonomous MIME Handling**: Automatically exports Google Docs to Markdown/Text when you try to read them.
+    *   **Error Recovery**: Retries transient faults.spelled, it attempts "Self-Healing" to find the closest match.
 - **`smart_read`**: A high-level tool that resolves a path, downloads the content, and converts it to text (Decodes Google Docs, Sheets, and PDFs automatically) in one step.
 
 ### 2. Standard File Management

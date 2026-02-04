@@ -3,9 +3,9 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "google-drive-mcp"
-version = "0.1.0"
-description = "MCP Server for Google Drive with Autonomous Agent Capabilities"
+name = "google-drive-forge"
+version = "0.2.0"
+description = "Autonomous Google Drive MCP with Skill Forge Capabilities"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -19,7 +19,7 @@ dependencies = [
 ]
 
 [project.scripts]
-google-drive-mcp = "google_drive_mcp.__main__:main"
+google-drive-forge = "google_drive_forge.__main__:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["google_drive_mcp"]
+packages = ["google_drive_forge"]

@@ -42,12 +42,12 @@ class ScriptExecutor:
             cmd.extend(args)
 
         try:
-            # Add the current project directory to PYTHONPATH so scripts can import google_drive_mcp
+            # Add the current project directory to PYTHONPATH so scripts can import google_drive_forge
             env = os.environ.copy()
-            # __file__ is inside google_drive_mcp/, so go up one level to get the package root
+            # __file__ is inside google_drive_forge/, so go up one level to get the package root
             package_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
             
-            # Ensure the skills can find the modules by importing 'google_drive_mcp'
+            # Ensure the skills can find the modules by importing 'google_drive_forge'
             current_pythonpath = env.get("PYTHONPATH", "")
             if current_pythonpath:
                 env["PYTHONPATH"] = f"{package_root}{os.pathsep}{current_pythonpath}"

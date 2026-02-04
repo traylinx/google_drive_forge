@@ -1,6 +1,6 @@
 # Agentic App Integration Guide
 
-This guide explains how to use `google_drive_mcp` as a library in your own Python applications and agents.
+This guide explains how to use `google_drive_forge` as a library in your own Python applications and agents.
 
 ---
 
@@ -11,7 +11,7 @@ This guide explains how to use `google_drive_mcp` as a library in your own Pytho
 pip install -e /path/to/mcp/google_drive/
 
 # From git
-pip install git+https://github.com/your-org/google-drive-mcp.git
+pip install git+https://github.com/your-org/google-drive-forge.git
 ```
 
 ---
@@ -19,10 +19,10 @@ pip install git+https://github.com/your-org/google-drive-mcp.git
 ## Example: Simple File Lister
 
 ```python
-from google_drive_mcp import IntelligentDriveClient
+from google_drive_forge import ForgeClient
 
 def main():
-    client = IntelligentDriveClient()
+    client = ForgeClient()
     
     print("Recent files:")
     for f in client.list_files(limit=5):

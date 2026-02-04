@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include SKILL.md
+include pyproject.toml
+recursive-include docs *
+recursive-include google_drive_forge/assets *
