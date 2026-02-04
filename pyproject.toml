@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "google-drive-mcp"
+version = "0.1.0"
+description = "MCP Server for Google Drive with Autonomous Agent Capabilities"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp",
+    "google-auth",
+    "google-auth-oauthlib",
+    "google-auth-httplib2",
+    "google-api-python-client",
+    "tenacity",
+    "PyYAML"
+]
+
+[project.scripts]
+google-drive-mcp = "google_drive_mcp.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["google_drive_mcp"]

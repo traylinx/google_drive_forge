@@ -1,0 +1,32 @@
+# General
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+# Virtual environments
+venv/
+venv_new/
+.env
+.venv
+
+# Distribution / Build
+dist/
+build/
+*.egg-info/
+
+# Sensitive Data / Credentials
+credentials.json
+token.json
+client_secret*.json
+service_account.json
+
+# Logs
+*.log
+logs/
+audit_logs/
+
+# Backups and temporary files
+src_backup/
+*.bak
+*.swp
