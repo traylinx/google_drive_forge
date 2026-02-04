@@ -37,7 +37,7 @@ if __name__ == "__main__":
 ## Example: Downloading Docs to Local
 
 ```python
-from google_drive_mcp import IntelligentDriveClient
+from google_drive_forge import IntelligentDriveClient
 import os
 
 def download_folder_as_markdown(folder_path: str, local_dir: str):
@@ -73,7 +73,7 @@ if __name__ == "__main__":
 ## Example: Running a Forged Skill
 
 ```python
-from google_drive_mcp import ScriptExecutor
+from google_drive_forge import ScriptExecutor
 
 def main():
     executor = ScriptExecutor(
@@ -101,7 +101,7 @@ if __name__ == "__main__":
                             │ imports
                             ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                    google_drive_mcp                         │
+│                    google_drive_forge                         │
 │  ┌───────────────────┐  ┌───────────────┐  ┌─────────────┐  │
 │  │ IntelligentClient │  │ ScriptExecutor│  │ SkillLoader │  │
 │  │ (Drive API)       │  │ (The Forge)   │  │ (Discovery) │  │

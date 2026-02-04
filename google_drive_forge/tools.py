@@ -217,7 +217,7 @@ description: {description}
     @mcp.tool()
     def get_skill_guide() -> str:
         """
-        Returns the detailed manual (SKILL.md) for this Google Drive MCP.
+        Returns the detailed manual (SKILL.md) for Google Drive Forge.
         Read this to understand how to use autonomous features, The Forge, and script templates.
         """
         import os

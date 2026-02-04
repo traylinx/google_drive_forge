@@ -1,6 +1,6 @@
 # MCP Tool Reference
 
-These tools are exposed by the Google Drive MCP server for use by AI agents.
+These tools are exposed by the Google Drive Forge server for use by AI agents.
 
 ---
 

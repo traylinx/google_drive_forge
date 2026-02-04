@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="assets/banner.png" width="250" alt="Intelligent Google Drive MCP Icon">
-  <h1>Intelligent Google Drive MCP</h1>
+  <img src="assets/banner.png" width="250" alt="Google Drive Forge Icon">
+  <h1>Google Drive Forge</h1>
 </div>
 
 [![MCP](https://img.shields.io/badge/MCP-Protocol-blue.svg)](https://modelcontextprotocol.io)

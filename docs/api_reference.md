@@ -35,7 +35,7 @@ client = ForgeClient(audit=None)  # audit: Optional[AuditLogger]
 Runs Python scripts (skills) in a subprocess.
 
 ```python
-from google_drive_mcp import ScriptExecutor
+from google_drive_forge import ScriptExecutor
 
 executor = ScriptExecutor(python_path="/path/to/python", skills_dir="/path/to/skills")
 ```
@@ -53,7 +53,7 @@ executor = ScriptExecutor(python_path="/path/to/python", skills_dir="/path/to/sk
 Discovers and manages AI-forged skills.
 
 ```python
-from google_drive_mcp import SkillLoader
+from google_drive_forge import SkillLoader
 
 loader = SkillLoader(skills_dir="/path/to/skills")
 ```
