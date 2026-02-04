@@ -45,7 +45,7 @@ Add the following to your MCP configuration file:
 Install the package:
 
 ```bash
-pip install git+https://github.com/your-org/google-drive-forge.git
+pip install google-drive-forge
 ```
 
 ### Basic Usage
